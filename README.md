@@ -11,6 +11,15 @@ send commands to remote server
 # SEND REMOTE COMMANDS
 python .\send_remote_command.py --hostip "127.0.0.1" --command 'ifconfig'
 ```
+### Pre-Built Commands
+
+- [x] check_docker
+- [x] restart_docker
+- [x] check_ip
+- [x] disk_space
+- [x] check_mounts
+
+
 
 ### DONE! Enjoy!
 
