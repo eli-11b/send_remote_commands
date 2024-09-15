@@ -126,15 +126,9 @@ def copy_remote_file_to_local(ip_address, source, destination):
     output = stdout.read()
     print(output.decode())
     log(f"ran {command}")
-
-    # return
+  
     return output
 
-def copy_local_file_to_remote(ip_address, source, destination):
-    pass
-
-def copy_key_to_server():
-    pass
 
 
 if __name__ == '__main__':
