@@ -3,6 +3,9 @@ send commands to remote server
 
 <img src="https://github.com/user-attachments/assets/c79e9be5-3cce-44eb-a66c-9755ef3fefaa" height="250">
 
+### TODO
+- [ ] Transfer Files
+
 ### Example
 ```
 # SEND REMOTE COMMANDS
