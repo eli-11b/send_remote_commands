@@ -1,10 +1,21 @@
 # send_remote_commands
 send commands to remote server
 
-<img src="https://github.com/user-attachments/assets/c79e9be5-3cce-44eb-a66c-9755ef3fefaa" height="250">
+<table>
+  <tr>
+    <th></th>
+    <th>Tasks</th>
+  </tr>
+  <td>
+    <img src="https://github.com/user-attachments/assets/c79e9be5-3cce-44eb-a66c-9755ef3fefaa" height="250">
+  </td>
+  <td>
+    <h3>&#x25a2; Transfer Files</h3>
+    <h3>&#x25a2; Create User</h3>
+    <h3>&#x25a2; Set Firewall Rule </h3>
+  </td>
+</table>
 
-### TODO
-- [ ] Transfer Files
 
 ### Example
 ```
@@ -13,11 +24,23 @@ python .\send_remote_command.py --hostip "127.0.0.1" --command 'ifconfig'
 ```
 ### Pre-Built Commands
 
-- [x] check_docker
-- [x] restart_docker
-- [x] check_ip
-- [x] disk_space
-- [x] check_mounts
+<table>
+  <tr>
+    <th></th>
+    <th>Tasks</th>
+  </tr>
+  <td>
+    <img src="https://github.com/user-attachments/assets/6a865fa0-a86c-425d-a3ba-2e9aa92b8102" height="250">
+  </td>
+  <td>
+    <h3>&#x2705;check_docker</h3>
+    <h3>&#x2705;restart_docker </h3>
+    <h3>&#x2705;check_ip  </h3>
+    <h3>&#x2705;disk_space</h3>
+    <h3>&#x2705;check_mounts </h3>
+  </td>
+</table>
+
 
 
 
