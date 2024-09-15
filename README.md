@@ -1,5 +1,5 @@
 # send_remote_commands
-send commands to remote server
+Send commands to remote server
 
 <table>
   <tr>
@@ -40,6 +40,32 @@ python .\send_remote_command.py --hostip "127.0.0.1" --command 'ifconfig'
     <h3>&#x2705;check_mounts </h3>
   </td>
 </table>
+
+### Example Prebuilt Commands
+```
+# Check IP
+python .\send_remote_command.py --hostip "127.0.0.1" --command 'check_ip'
+```
+
+```
+# Check Status of docker service
+python .\send_remote_command.py --hostip "127.0.0.1" --command 'check_docker'
+```
+
+```
+# Restart Docker Service
+python .\send_remote_command.py --hostip "127.0.0.1" --command 'restart_docker'
+```
+
+```
+# Check Diskspace
+python .\send_remote_command.py --hostip "127.0.0.1" --command 'disk_space'
+```
+
+```
+# List Mounted Drives
+python .\send_remote_command.py --hostip "127.0.0.1" --command 'check_mounts'
+```
 
 
 
