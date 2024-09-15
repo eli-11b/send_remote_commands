@@ -13,6 +13,7 @@ Send commands to remote server
     <h3>&#x25a2; Transfer Files</h3>
     <h3>&#x25a2; Create User</h3>
     <h3>&#x25a2; Set Firewall Rule </h3>
+    <h3>&#x25a2; Multiple Servers from a text file of IP Addresses </h3>
   </td>
 </table>
 
